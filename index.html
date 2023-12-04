@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+        <title>Spidey and the amazing friends</title>
+</head>
+
+<body id="body">
+
+        <div id="overlayCarga">
+                <div>
+                    <div class="loader">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+        
+                    <div class="loader-container">
+                        <span class="loaderNum text" id="loaderNum">0%</span>
+                    </div>
+                </div>
+            </div>
+
+
+        <!--             NAV          -->
+
+        <nav>
+                <div id="menuContainer">
+                        <div id="burgerNav" onclick="state()">
+                                <div id="rec1" class="barraHamburguesa"></div>
+                                <div id="rec2" class="barraHamburguesa"></div>
+                                <div id="rec3" class="barraHamburguesa"></div>
+                        </div>
+                        <menu id="menu">
+                                <div class="cat" id="cat1">
+                                        <button class="botonesmenu">HOME</button>
+
+                                </div>
+                                <div class="cat" id="cat2">
+                                        <button class="botonesmenu">MAS JUEGOS</button>
+                                </div>
+                                <div class="cat" id="cat3">
+                                        <button class="botonesmenu">CONTACTANOS</button>
+                                </div>
+                        </menu>
+                </div>
+                <div id="navElements">
+                        <h1 id="btnComprar">COMPRAR</h1>
+                        <div id="logotipo"><img src="resources/spideyTitle.png" alt=""></div>
+                        <div id="fondoNav"><img src="resources/nav/fondo.jpg" alt=""></div>
+                </div>
+        </nav>
+
+        <div id="cont">
+                <!--             SECCION  1          -->
+                <div id="section1">
+                        <div id="fondo1">
+                                <div id="edifIzq" class="layer edifIzq , animarEdifizq"><img src="resources/Untitled-1 3.png" alt="">
+                                </div>
+                                <div id="edifMed" class="layer edifMed , animarmedio"><img src="resources/Untitled-1 2.png" alt=""></div>
+                                <div id="edifDer" class="layer edifDer , animarEdifDer" onclick="animarHero()"><img src="resources/Untitled-1 4.png" alt=""></div>
+                                <div class="animarHeromedio" id="spidey"><img src="resources/spidey1.png" alt=""></div>
+                                <div class="animarHeromedio" id="red1"><img src="resources/red1.png" alt=""></div>
+                                <div class="animarHeroizq" id="gwen1"><img src="resources/gwen1.png" alt=""></div>
+                                <div class="animarHeroder" id="miles1"><img src="resources/miles1.png" alt=""></div>
+                                <div class="animarHeroder" id="red2"><img src="resources/red2.png" alt=""></div>
+                        </div>
+                </div>
+
+                <!--             SECCION  2          -->
+
+                <div id="fondo2"></div>
+                <h2 class="subTitulo" id="sb1">Conoce a Spidey y sus sorprendentes amigos</h2>
+                <p class="text" id="txt1">Spidey, nuestro lanzador de telarañas favorito se une a Ghost-Spider
+                        (Gwen
+                        Stacey) y Miles Morales para formar el equipo de Spidey, con la ayuda del cómico pero
+                        leal robot
+                        de Spidey, TRACE-E. Si Spidey se encuentra en una situación difícil donde necesita aún
+                        más poder
+                        de superhéroe, tengan la seguridad de que un amigo de los Vengadores correrá para
+                        ayudar.</p>
+                <div id="duende"><img src="resources/duende.png" alt=""></div>
+                <div id="muestraJuego1"><img src="resources/muestraJuego1.png" alt=""></div>
+
+
+                <!--             SECCION  3          -->
+
+                <div id="fondo3"><img src="resources/fondo3.png" alt=""></div>
+                <div id="contJuego1" class="movCont">
+                        <div id="juego3-1"><img src="resources/juego3-1.png" alt=""></div>
+                        <p class="text" id="txt3-1">Peter Parker, un joven huérfano neoyorquino que adquiere
+                                superpoderes
+                                después de ser mordido por una araña radiactiva,​ y cuya ideología como héroe se ve
+                                reflejada
+                                primordialmente en la expresión ”un gran poder conlleva una gran responsabilidad”.</p>
+                </div>
+                <div id="contJuego2" class="movCont">
+                        <div id="juego3-2"><img src="resources/juego3-2.png" alt=""></div>
+                        <p class="text" id="txt3-2">Tras la muerte de Peter Parker, es quien toma la identidad de
+                                Spider-Man.
+                                La elección del presidente Barack Obama en enero de 2009, fue una fuente de inspiración
+                                para el
+                                cambio de etnicidad de Spider-Man.</p>
+                </div>
+                <div id="contJuego3" class="movCont">
+                        <div id="juego3-3"><img src="resources/juego3-3.png" alt=""></div>
+                        <p class="text" id="txt3-3">El personaje es una variante de El Hombre Araña, una versión de
+                                universo
+                                alternativo de Gwen Stacy. Ella reside en la "Tierra-65", donde, en lugar de Peter
+                                Benjamin
+                                Parker, Gwen Stacy fue mordida por la Araña Radiactiva</p>
+                </div>
+
+                <!--             SECCION  4          -->
+
+                <div id="fondo4"><img src="resources/fondo4.png" alt=""></div>
+                <div id="juego4-1"><img class="skew-img" src="resources/juego4-1.png" alt=""></div>
+                <div id="juego4-2"><img class="skew-img" src="resources/juego4-2.png" alt=""></div>
+                <div id="juego4-3"><img class="skew-img" src="resources/juego4-3.png" alt=""></div>
+
+                <!--             SECCION  5          -->
+
+                <div id="fondo5"></div>
+                <h2 class="subTitulo" id="sb2">Los vengadores acompañando tu aventura</h2>
+                <div id="parallaxMouse">
+                </div>
+
+                <!--             SECCION  6          -->
+
+                <div id="features">
+                        <div class="oculto" id="features1"><img src="resources/features1.png" alt=""></div>
+                        <div class="oculto" id="features2"><img src="resources/features2.png" alt=""></div>
+                        <div class="oculto" id="features3"><img src="resources/features3.png" alt=""></div>
+                        <div class="oculto" id="features4"><img src="resources/features4.png" alt=""></div>
+                </div>
+                <h2 class="subTitulo2" id="sb6-1">Mas de 100 misiones para que juegues sin parar!</h2>
+                <p class="text" id="txt6-1">Tus padres, contentos. Explora el emocionante mundo de Spider-Man con más de
+                        100 misiones que te mantendrán en constante acción y adrenalina. Enfréntate a desafíos únicos,
+                        desentraña misterios, y ayuda a Spider-Man a mantener la paz en la ciudad mientras te sumerges
+                        en la piel del héroe arácnido. ¿Tienes lo que se necesita para superar todas las misiones y
+                        convertirte en el auténtico Spider-Man?</p>
+
+                <h2 class="subTitulo2" id="sb6-2">Escenas deslumbrantes que te sorprenderán</h2>
+                <p class="text" id="txt6-2">Sumérgete en un universo de maravillas visuales con 'Spider-Man: [nombre del
+                        juego]'. Nuestro juego te llevará a través de escenas deslumbrantes que te dejarán sin aliento.
+                        Desde los rascacielos de Nueva York hasta los intrincados detalles de la vida de Peter Parker,
+                        cada rincón de este mundo te sorprenderá. Prepárate para una experiencia única que desafiará tus
+                        expectativas y te transportará a un asombroso viaje con el Hombre Araña.</p>
+
+                <h2 class="subTitulo2" id="sb6-3">Cada misión te dará puntos que no sirven para nada! </h2>
+                <p class="text" id="txt6-3">Cada misión es una oportunidad para vivir la emocionante vida del Hombre
+                        Araña, y aunque los puntos que ganarás no tengan un propósito específico, la verdadera
+                        recompensa está en la diversión y la inmersión que experimentarás en cada desafío. No necesitas
+                        acumular puntos para sentirte como un auténtico superhéroe, ya que la adrenalina de salvar la
+                        ciudad y la emoción de las acrobacias en el aire son más que suficientes. ¡Así que prepárate
+                        para sumergirte en la acción y la aventura, sin preocuparte por los puntos, y vive la
+                        experiencia definitiva de Spider-Man!</p>
+
+                <h2 class="subTitulo2" id="sb6-4">Derrota a los villanos y diviértete</h2>
+                <p class="text" id="txt6-4">la diversión está asegurada mientras te enfrentas a los infames villanos de
+                        la ciudad de Nueva York. Enfréntate a desafíos épicos, combate a tus enemigos más temibles y
+                        disfruta de una experiencia llena de acción y emoción. Cada encuentro con los villanos te
+                        sumergirá en una batalla trepidante y te llevará más cerca de convertirte en el auténtico Hombre
+                        Araña. Así que, ¿estás listo para derrotar a los villanos y sumergirte en la aventura definitiva
+                        de Spider-Man?"</p>
+
+
+                <!--             SECCION  7          -->
+
+                <h2 class="subTitulo" id="sb4">”un gran poder conlleva una gran responsabilidad”</h2>
+                <div id="btnComprarAhoraS-7"><img src="resources/btnComprarAhora.png" alt=""></div>
+
+                <!--             SECCION  8          -->
+
+                <div id="fondo8"><img src="resources/fondo8.png" alt=""></div>
+                <div id="gwen8-1"><img src="resources/gwen8-1.png" alt=""></div>
+                <div id="miles8-2"><img src="resources/miles8-2.png" alt=""></div>
+                <div id="peter8-3"><img src="resources/peter8-3.png" alt=""></div>
+
+                <!--             SECCION  9          -->
+
+                <div id="fondo9">
+                        <div id="edificios9"><img src="resources/edificios.png" alt=""></div>
+                        <div id="pixelSpyder1"></div>
+                        <div id="pixelSpyder2"></div>
+
+                        <h2 class="subTitulo" id="sbSub">Lo último de SPIDEY Y SUS AMIGOS en tu buzón de correo
+                                electrónico</h2>
+                        <div id="btnSubscribir"><img src="resources/btnSubscribir.png" alt=""></div>
+                        <p class="text" id="txtTerminos">Al inscribirse en nuestra lista de correo, nos autoriza a
+                                ponernos en contacto con usted para enviarle ofertas y actualizaciones de marketing por
+                                correo electrónico, y también acepta nuestra Política de privacidad y las Condiciones
+                                del servicio.</p>
+                        <div id="pegi"><img src="resources/pegi.png" alt=""></div>
+                </div>
+
+                <!--             FOOTER          -->
+
+                <div id="footerUp"><img src="resources/footerUp.png" alt=""></div>
+                <div id="logos"><img src="resources/logos.png" alt=""></div>
+                <div id="footerFondo"><img src="resources/footerFondo.png" alt=""></div>
+                <p class="text" id="legal">©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and
+                        Trademark Office. SEGA, the SEGA logo and SONIC SUPERSTARS are either registered trademarks or
+                        trademarks of SEGA CORPORATION or its affiliates. All other trademarks, logos and copyrights are
+                        property of their respective owners.©2023 The LEGO Group. LEGO, the LEGO logo, the Minifigure,
+                        and the Brick and Knob configurations are trademarks and/or copyrights of the LEGO Group. All
+                        other marks and trademarks are the property of their respective owners. All rights
+                        reserved."PS", "PS5" and "PS4" are registered trademarks or trademarks of Sony Interactive
+                        Entertainment Inc.Microsoft, the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series
+                        X are trademarks of the Microsoft group of companies.Nintendo Switch is a trademark of
+                        NintendoEPIC GAMES and the EPIC STORE LOGO are trademarks or registered trademarks of EPIC GAMES
+                        INC.©2023 Valve Corporation. Steam and the Steam logo are trademarks and/or registered
+                        trademarks of Valve Corporation in the U.S. and/or other countries.The ESRB rating icons are
+                        registered trademarks of the Entertainment Software Association.</p>
+                <p class="text" id="legalLinks">COOKIE POLICY PRIVACY POLICY</p>
+                <div id="redes"><img src="resources/redes.png" alt=""></div>
+
+        </div>
+
+        </div>
+
+</body>
+<script src="script.js"></script>
+
+
+</html>
